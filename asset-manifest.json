@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rahu827/personalsite.git/static/css/main.dbeceb74.css",
+    "main.js": "/rahu827/personalsite.git/static/js/main.03fa71d4.js",
+    "index.html": "/rahu827/personalsite.git/index.html",
+    "main.dbeceb74.css.map": "/rahu827/personalsite.git/static/css/main.dbeceb74.css.map",
+    "main.03fa71d4.js.map": "/rahu827/personalsite.git/static/js/main.03fa71d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbeceb74.css",
+    "static/js/main.03fa71d4.js"
+  ]
+}

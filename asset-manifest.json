@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/rahu827/react.git/static/css/main.dbeceb74.css",
-    "main.js": "/rahu827/react.git/static/js/main.03fa71d4.js",
-    "index.html": "/rahu827/react.git/index.html",
-    "main.dbeceb74.css.map": "/rahu827/react.git/static/css/main.dbeceb74.css.map",
-    "main.03fa71d4.js.map": "/rahu827/react.git/static/js/main.03fa71d4.js.map"
+    "main.css": "/%20//github.com/rahu827/react-app-website.git/static/css/main.dbeceb74.css",
+    "main.js": "/%20//github.com/rahu827/react-app-website.git/static/js/main.03fa71d4.js",
+    "index.html": "/%20//github.com/rahu827/react-app-website.git/index.html",
+    "main.dbeceb74.css.map": "/%20//github.com/rahu827/react-app-website.git/static/css/main.dbeceb74.css.map",
+    "main.03fa71d4.js.map": "/%20//github.com/rahu827/react-app-website.git/static/js/main.03fa71d4.js.map"
   },
   "entrypoints": [
     "static/css/main.dbeceb74.css",

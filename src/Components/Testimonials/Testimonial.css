@@ -1,0 +1,84 @@
+.row_custom{
+    display: flex;
+    justify-content: center;
+}
+#testi{
+    text-align: center;
+    position: relative;
+}
+.top{
+    font-family: 'poppins';
+    font-size: 20px;
+
+    color: orange;
+    font-weight: 500;
+    position: relative;
+}
+.top::after{
+    position: absolute;
+    content: "";
+    background-color: orange;
+    color: orange;
+    width: 100%;
+    height: 3%;
+    left: 0;
+    bottom: 0;
+}
+#testi h2{
+    margin-top: 1rem;
+}
+.h2_span{
+    color: orange;
+    font-size: 25px;
+}
+.t_blur{
+    position: absolute;
+    background-color: blue;
+    left: 10rem;
+    top: 10rem;
+    height: 18rem;
+    width: 20rem;
+    border-radius: 100%;
+    filter: blur(220px);
+}.textimonial_slide{
+    font-family: 'poppins'!important;
+    margin-top: 3rem;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    box-shadow: 0px 1px 30px 10px rgb(37, 37, 37);
+}
+.mb-2{
+    margin-bottom: 23rem!important;
+}
+.textimonial_slide img{
+width: 200px;
+padding: 1rem;
+border-radius: 100%;
+height: 200px;
+}
+.r_blur{
+    position: absolute;
+    background-color: rgb(255, 117, 25);
+    left: 10rem;
+    top: 10rem;
+    height: 18rem;
+    width: 20rem;
+    border-radius: 100%;
+    filter: blur(220px);   
+}
+.iner_cicle{
+    position: absolute;
+    background-color: red;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    top: 0;
+    right:0;
+    opacity: .4;
+    filter: blur(120px);
+}
+#testi .swiper-pagination-bullet-active{
+background: orange;
+}

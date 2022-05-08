@@ -1,0 +1,47 @@
+.realtive{
+    position: relative;
+}
+.main_div{
+    position: relative;
+    left: 9rem;
+    width: 19rem;
+    height: 18rem;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 10px 10px 50px 6px;
+}
+.main_div>*{
+    position: absolute;
+    background-color: red;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 100%;
+ 
+}
+.main_div> :nth-child(1){
+    top: 3rem;
+    border: 1rem solid #000;
+    left: 16rem;
+}
+.main_div> :nth-child(2){
+    bottom: -2.6rem;
+    left: 6rem;
+    border: 1rem solid #000;
+}
+.bluecircle{
+    background-color: blue;
+    top: -4rem;
+    z-index: -1;
+    right: -4rem;
+    width: 18rem;
+    height: 19rem;
+   
+}
+.yellowcircle{
+    background-color: rgb(251, 255, 0);
+    top: 4rem;
+    z-index: -1;
+    right: -4rem;
+    width: 18rem;
+    height: 19rem;
+}

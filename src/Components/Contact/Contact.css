@@ -1,0 +1,21 @@
+
+.form_custom span, .span{
+    color: orange!important;
+}
+.form_custom input{
+    padding: 15px;
+    border: 1px solid orange;
+    border-radius: 200px;
+}
+.col_contact_custom h3{
+    position: relative;
+}
+.col_contact_custom h3::after{
+    position: absolute;
+    background-color: orange;
+    width: 10%;
+    height: 5%;
+    left: 0;
+    bottom: 0;
+    content: "";
+}

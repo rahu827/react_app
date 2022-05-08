@@ -1,0 +1,57 @@
+.divider_custom{
+    background-color: orange;
+    width: 100%;
+    padding: 30px;
+    font-family: 'poppins';
+    color: rgb(0, 0, 0);
+    /* text-align: center; */
+}
+.divider_custom h2{
+    color: rgb(11, 1, 100);
+    text-transform: capitalize;
+    font-size: 23px;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+.contact_csutm>img{
+    width: 40px;
+}
+.contact_csutm{
+    background-color: #fff;
+    width: 300px;
+    /* text-align: center; */
+    padding: 15px;
+    border-radius: 20px;
+}
+.divider_custom .row{
+    display: flex;
+    justify-content: center;
+}
+.blur{
+    background-color: blue;
+    position: absolute;
+    height: 25%;
+    width: 30%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 15rem;
+    filter: blur(100px);
+}
+.blur_1{
+    background-color: rgb(255, 94, 0);
+    position: absolute;
+    height: 25%;
+    width: 30%;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    border-radius: 15rem;
+    filter: blur(100px);
+}
+.content img{
+    width: 100px!important;
+    position: absolute;
+    top: 3rem;
+    right: 0;
+}

@@ -1,0 +1,33 @@
+.inner_div{
+    margin-top: 7rem;
+}
+.row_custm{
+    display: flex;
+    justify-content: center;
+}
+.row_custm img{
+    width: 290px;
+}
+.inner_div>:nth-child(1){
+    margin-top:3rem;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.inner_div>:nth-child(3){
+    font-size: 4rem;
+    font-weight: 600;
+    color: orangered;
+}
+.inner_div>:nth-child(5){
+    /* font-size: 4rem; */
+    font-weight: 100;
+    color: gray;
+}
+.social_icon img{
+    width: 40px;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}

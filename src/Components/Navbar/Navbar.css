@@ -1,0 +1,36 @@
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+.n_left{
+    flex: 0.5;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.n_name{
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.n_right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.n_list{
+flex: 4;
+}
+.n_list>ul{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    /* margin-right: 4rem; */
+    list-style: none;
+}

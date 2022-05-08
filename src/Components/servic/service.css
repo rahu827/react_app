@@ -1,0 +1,70 @@
+*{
+    font-family: 'poppins'!important;
+}
+.custom_col{
+    margin-top: 4rem;
+    padding: 20px;
+    position: relative;
+    line-height: 2;
+}
+.custom_col h1{
+    font-family: 'poppins';
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 4rem;
+    color: rgb(0, 0, 85);
+}
+.custom_col span{
+    color: orange;
+    font-size: 3rem;
+    font-family: 'poppins';
+    font-weight: bold;
+}
+.img_custom{
+    width: 100px;
+    font-family: 'poppins';
+}
+.col_custom h3{
+    font-family: 'poppins';
+    padding: 20px 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.mt-9{
+    top: 6rem;
+    left: 3rem;
+    margin-top: 9rem!important;
+}
+.col_custom{
+    width: 100%;
+    background-color: #fff;
+    border: 3px solid orange;
+padding: 20px;
+border-radius: 20px;
+}
+.cust{
+    width: 50%!important;
+}
+.blur_custom{
+    background-color: rgb(247, 183, 146);
+    position: absolute;
+    height: 25%;
+    width: 30%;
+    right: 0;
+    bottom: -50rem;
+    z-index: -1;
+    border-radius: 15rem;
+    filter: blur(100px);
+}.blur_custom1{
+    background-color: rgb(183, 247, 241);
+    position: absolute;
+    height: 25%;
+    width: 30%;
+    left: 0;
+    bottom: -10rem;
+    z-index: -1;
+    border-radius: 15rem;
+    filter: blur(100px);
+}
+
